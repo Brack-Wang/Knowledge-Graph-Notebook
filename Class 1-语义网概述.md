@@ -14,8 +14,8 @@ NLP词库：HOWNET/WORDNET
 
 在线词库
 
-## 课程安排
-
+## [课程安排](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E8%AF%BE%E8%A1%A8.jpg)
+## [课程实验](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E5%AE%9E%E9%AA%8C.jpg)
 
 ## www
 web1.0->web of docunments
