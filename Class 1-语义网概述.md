@@ -14,9 +14,22 @@ NLP词库：HOWNET/WORDNET
 
 在线词库
 
-## ![课程安排](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E8%AF%BE%E8%A1%A8.jpg)
-## ![课程实验](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E5%AE%9E%E9%AA%8C.jpg)
+### 知识图谱网络
+GOOGLE: Freebase
 
+沃森：YaGo
+
+Tim Berles-Lee: Linked Open Data
+
+交大： zhishi.me
+
+## 课程安排
+![课程安排](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E8%AF%BE%E8%A1%A8.jpg)
+## 课程实验
+![课程实验](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E5%AE%9E%E9%AA%8C.jpg)
+
+---
+# 发展历程
 ## www
 web1.0->web of docunments
 
@@ -24,6 +37,17 @@ web2.0->web of persons
 
 web3.0->web of data
 
+## 发展历史
+1998年 Tim Berners-Lee提出（89年提出WWW）
+
+W3C metadata activity（提出RDFs）
+
+## 存在问题
+本体库构造代价太高
+
+语义网太丰富，目前的推理算法不能识别（可判定性低）
+
+# 概念
 ## 当前WEB存在的问题
 但是当前的web中知识不能被机器所理解，大量的知识不能被人挖掘。信息很多但是结构化的信息太少，如果机器可以自动的进行知识提取，将大幅度的提高web上知识的利用率。
 
@@ -36,6 +60,8 @@ WEB内容多为异构的（内容异构/结构异构/编码方式异构）
 
 主要方法：逻辑演绎（自动推理）/归纳
 
+---
+# 本体
 ## 对于本体的理解（存在与本质）
 >ontology就是本体，也就是一个抽象的概念，这个抽象的概念在现实生活中进行映射。就是柏拉图所说的本质与存在之间的关系。因而人与人之间可以进行沟通交流。因此如果想要让机器完成这样的任务，我们让机器对一个概念有共同的理解，那么当机器进行交流中就不存在语义偏差。理解是在个体与个体之间建立起来的？
 
@@ -57,3 +83,28 @@ WEB内容多为异构的（内容异构/结构异构/编码方式异构）
 可伸缩性具有挑战
 
 Expressivity<-->scalability表示能力与可扩展性拮抗
+
+## 本体
+本体的核心是分类体系（Taxonomy）分层体系/（partonomy）整体-部分体系 的层次结构
+
+---
+# RDF
+```
+Unicode:编码
+
+URI：全球资源标识。每一个实体对应的标识
+
+XML：非常重要
+
+本体层->
+
+RDF：描述的是实体。资源描述框架，做数据交换
+
+RDF-s：描述的是概念。
+
+Rules:RIF: 规则描述语言
+
+Query:SPAROL
+
+ontology:OWL
+```
