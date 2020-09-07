@@ -23,10 +23,8 @@ Tim Berles-Lee: Linked Open Data
 
 交大： zhishi.me
 
-## 课程安排
-![课程安排](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E8%AF%BE%E8%A1%A8.jpg)
-## 课程实验
-![课程实验](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E5%AE%9E%E9%AA%8C.jpg)
+[## 课程安排](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E8%AF%BE%E8%A1%A8.jpg)
+[## 课程实验](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E5%AE%9E%E9%AA%8C.jpg)
 
 ---
 # 发展历程
@@ -142,10 +140,35 @@ Lieral:
 谓语： URIs（属性properties）
 宾语： URIs/空节点/文字（Literal）
 
-### Turtle语法
+### Turtle语法【不被W3C支持】
 ```
 -URIs放在<>中
 -文字用双引号""
 -三元组用英文句号结束
 -忽略空格
 ```
+#### 前缀缩写
+@prefix xxx:
+
+#### 相同主语进行合并
+主语合并，两句之间用；分开
+
+谓语合并，两句之间用,分开
+
+### RDF的XML-based写法
+名字空间用来对标签进行消歧
+
+三元组嵌套
+
+无类型的
+
+DTD 利用！ENTITY 做字符串替代。由于有时候在UUI中的“”不能写：，只能通过该方式进行引用使用方式为 &book;
+
+基础命名空间(base namespace) 相当于设置默认的URI，直接写URI相当于指代开头指定的值
+
+#### 数据类型
+相当于强制类型转换
+
+`rdf:XMLLiteral`是RDF唯一内嵌的
+
+###
