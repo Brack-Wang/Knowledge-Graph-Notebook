@@ -84,11 +84,11 @@ WEB内容多为异构的（内容异构/结构异构/编码方式异构）
 
 Expressivity<-->scalability表示能力与可扩展性拮抗
 
-## 本体
 本体的核心是分类体系（Taxonomy）分层体系/（partonomy）整体-部分体系 的层次结构
 
 ---
 # RDF
+## 知识图谱层次结构
 ```
 Unicode:编码
 
@@ -107,4 +107,45 @@ Rules:RIF: 规则描述语言
 Query:SPAROL
 
 ontology:OWL
+```
+
+## 为什么使用RDF
+
+一开始是用XML传输信息。但是XML将信息描述成树形结构。当信息很多的时候，需要同时描述，需要对树形结构进行合并。数据将变得臃肿且不易理解
+
+通过三元组的方式，很自然的将实体变成了节点与线的形式，形成图的形式。信息通常被分散存储和管理，合并不同来源的RDF数据变得更加容易。使得扩展更加便利。
+
+## 什么是RDF
+RDF(Resourse Description Framework)
+
+标准规范： http://www.w3.org/RDF/
+
+Metadata：描述数据的数据
+
+用于描绘web pages的metadata结构化的信息/通用的机器可读的信息/基本的语法是遵循XML规范的
+
+### RDF的结构
+URIs： 表示的是一个个的数据和实体。避免歧义，在全球范围内可以查询。-for referencing resources
+
+Literals文字：没有打上双引号的字符串-data values
+
+Empty nodes空节点:没有命名的节点-允许节点内容为空
+```
+Lieral:
+表示数据的值
+采用字符串进行编码
+值通过数据类型进行解释
+没有数据类型的字面体当作字符串进行处理
+```
+### 规则
+主语： URIs/空节点
+谓语： URIs（属性properties）
+宾语： URIs/空节点/文字（Literal）
+
+### Turtle语法
+```
+-URIs放在<>中
+-文字用双引号""
+-三元组用英文句号结束
+-忽略空格
 ```
