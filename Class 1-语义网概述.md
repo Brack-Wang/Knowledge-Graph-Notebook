@@ -27,6 +27,14 @@ Tim Berles-Lee: Linked Open Data
 [## 课程实验](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E5%AE%9E%E9%AA%8C.jpg)
 
 ---
+# 总结：
+什么是语义网，从WEB到语义网
+
+什么是本体，本体的作用
+
+资源描述框架RDF，TURTLE语法与XML-based语法
+
+---
 # 发展历程
 ## www
 web1.0->web of docunments
@@ -171,4 +179,24 @@ DTD 利用！ENTITY 做字符串替代。由于有时候在UUI中的“”不能
 
 `rdf:XMLLiteral`是RDF唯一内嵌的
 
-###
+### 语言表述结构
+考虑到结构性，便于查询，准确表述
+
+利用三元组表示
+```
+IMPORTANT:
+`rdf:parseType="Resourse"`表示自动创建一个空节点
+
+*_:id 空节点有一个下划线代替命名空间前缀
+```
+### Open Lists <-> Closed Lists
+open可以添加节点，closed不可以添加
+```
+open 可添加新元素
+rdf:Seq 有序
+rdf:Bag 无序
+rdf:Alt 可替代的
+```
+* RDF是链表
+
+* nil表示结尾
