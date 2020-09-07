@@ -14,8 +14,8 @@ NLP词库：HOWNET/WORDNET
 
 在线词库
 
-## [课程安排](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E8%AF%BE%E8%A1%A8.jpg)
-## [课程实验](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E5%AE%9E%E9%AA%8C.jpg)
+## ![课程安排](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E8%AF%BE%E8%A1%A8.jpg)
+## ![课程实验](https://github.com/Brack-Wang/Knowledge-Graph-Notebook/blob/master/images/KG%E5%AE%9E%E9%AA%8C.jpg)
 
 ## www
 web1.0->web of docunments
@@ -49,5 +49,11 @@ WEB内容多为异构的（内容异构/结构异构/编码方式异构）
 
 本体提供的是一种**共享词表**，特定领域之间村啊在着的对象类型和概念机器属性和相互关系 formal representation。
 
+## 本体语言
+有合适的知识
 
+含义通过推理和逻辑算法
 
+可伸缩性具有挑战
+
+Expressivity<-->scalability表示能力与可扩展性拮抗
