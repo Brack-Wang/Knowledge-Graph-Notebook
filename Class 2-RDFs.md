@@ -61,6 +61,10 @@ rdfs:subClassOf 是传递的（transitive）
 
 Ontology(RDF/OWL)-> Reasoner(produce implicit knowledge)->Completed knowledge base <->Application
 
+通过显示知识推出逻辑结论。不需要进行显示地声明。
+
+什么样的是逻辑结论？根据三元组的形式语义
+
 ## 类的等价
 两个类互为子类， subclassof
 
@@ -82,5 +86,27 @@ Ontology(RDF/OWL)-> Reasoner(produce implicit knowledge)->Completed knowledge ba
 
 **每个被声明的属性限制会全局地影响此属性所有的出现情况，在使用属性限制时要非常小心，尽量使用足够一般的类**
 
+## 物化三元组 Reification
+辅助接点 
+
+利用空白节点代替一整句话，说明这个空白节点的诸位并，同时将空白节点声明为statements的一个实例
+
+## 补充信息
+rdfs:label URI命名
+
+rdfs:comment 为资源指定注解
+
+rdfs:seeAlso 链接：用于连接到提供关于主语资源更多信息或定义URIs
+
+rdfs:definedBy 由什么来定义
+
+
+
 
 # RDFs形式语义
+## 为什么定义语义
+这里讨论的语义是逻辑纬度的语义，形式语义（formal semantics）
+
+引入RDF(S)的作用： 给定的说明中得到的结论的解释不足够充分
+
+
