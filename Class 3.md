@@ -25,3 +25,31 @@ RDFS是给RDF提供语义，添加语义的方式主要通过词汇，RDFS主要
 ##OWL
 `web ontology language OWL`
 
+源自DAML+OIL，是作为RDF（Resource Description Framework）的扩展词典进行开发
+
+
+
+xml,xmls满足拥有一直定义的词典进行数据交换
+
+RDF/RDFS提供了概念/属性/子属性/。但是还不够强大，缺少cardinality, disjiont
+
+
+OWL FULL(OWL DL(OWL LITE))
+
+FULL版本取决于用户在多大程度上需要RDF，可能不可预测
+
+OWL成为WEB语言是因为URL提供了唯一标识
+
+RDFS的扩展和有效推理的需求相冲突？定义是灵活的，但是推理是不可判定的
+
+OWL 和OWL LITE没有完全的继承RDFS。而是采用经i的那的逻辑解释。要求个体、类、特性是不相交的集合
+
+所有的个体都是资源，类是资源的集合
+
+OWL FULL完全兼容RDFS 也包含了OWL DL的内容，也是其推理不可判定的原因
+
+
+# 命名空间
+向下兼容，利用实体来简略URI
+
+在文档类型声明中提供的一些实体定义常常是很有用的。
