@@ -53,3 +53,27 @@ OWL FULL完全兼容RDFS 也包含了OWL DL的内容，也是其推理不可判�
 向下兼容，利用实体来简略URI
 
 在文档类型声明中提供的一些实体定义常常是很有用的。
+
+# OWL
+owl:thing 指代的是全集
+
+owl:nothing指代的是空集
+
+基本元素：唯一值，表示只有唯一一个
+
+inverof 表示两个属性互为逆
+
+allvaluesfrom:属性所有的值域必须是B，相当于对其做出限定，全都是B
+
+somevaluesfrom：至少一个实例的属性值满足B。至少有一个是B
+
+hasvalue:表示它的值可能有很多个，只要有一个包含就是
+
+same as: 做个体间的映射
+
+alldifferent: 集合当中的元素互不相同
+
+distinctmemebers用于承接上面那个说明集合中的各个元素各不相同
+
+通过匿名类构造复合类
+
